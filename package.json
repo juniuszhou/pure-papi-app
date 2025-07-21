@@ -1,0 +1,32 @@
+{
+  "name": "pure-papi-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": " ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/juniuszhou/pure-papi-app/issues"
+  },
+  "homepage": "https://github.com/juniuszhou/pure-papi-app#readme",
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "nodemon": "^3.1.10",
+    "polkadot-api": "^1.15.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors"
+  }
+}
