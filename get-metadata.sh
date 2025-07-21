@@ -1,0 +1,1 @@
+npx papi add local -w ws://localhost:9944

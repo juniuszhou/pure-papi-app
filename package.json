@@ -20,13 +20,14 @@
   },
   "homepage": "https://github.com/juniuszhou/pure-papi-app#readme",
   "devDependencies": {
-    "@types/node": "^24.0.14",
+    "@types/node": "^24.0.15",
     "nodemon": "^3.1.10",
     "polkadot-api": "^1.15.0",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
   "dependencies": {
+    "@polkadot-api/cli": "^0.14.2",
     "@polkadot-api/descriptors": "file:.papi/descriptors"
   }
 }
